@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Multistepform-redux-toolkit/static/css/main.de7501b8.css",
-    "main.js": "/Multistepform-redux-toolkit/static/js/main.8a07d482.js",
+    "main.js": "/Multistepform-redux-toolkit/static/js/main.eb048b2a.js",
     "static/media/open-sans-all-400-normal.woff": "/Multistepform-redux-toolkit/static/media/open-sans-all-400-normal.3bc4108fa8f9a72e6ea5.woff",
     "static/media/icons.svg": "/Multistepform-redux-toolkit/static/media/icons.476a8968258f4e0b63dba47408fd74a0.svg",
     "static/media/open-sans-cyrillic-ext-400-normal.woff2": "/Multistepform-redux-toolkit/static/media/open-sans-cyrillic-ext-400-normal.acfea1d2352591b09c46.woff2",
@@ -14,10 +14,10 @@
     "static/media/open-sans-greek-ext-400-normal.woff2": "/Multistepform-redux-toolkit/static/media/open-sans-greek-ext-400-normal.6e872659616d9b8fb28c.woff2",
     "index.html": "/Multistepform-redux-toolkit/index.html",
     "main.de7501b8.css.map": "/Multistepform-redux-toolkit/static/css/main.de7501b8.css.map",
-    "main.8a07d482.js.map": "/Multistepform-redux-toolkit/static/js/main.8a07d482.js.map"
+    "main.eb048b2a.js.map": "/Multistepform-redux-toolkit/static/js/main.eb048b2a.js.map"
   },
   "entrypoints": [
     "static/css/main.de7501b8.css",
-    "static/js/main.8a07d482.js"
+    "static/js/main.eb048b2a.js"
   ]
 }
