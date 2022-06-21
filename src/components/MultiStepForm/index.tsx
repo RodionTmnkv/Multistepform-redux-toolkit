@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useId } from "react";
 import { FormProvider, useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 
@@ -24,6 +24,7 @@ type FormData = TableDataRow;
 const MultiStepForm = ({ closeModal }: Props): React.ReactElement => {
 
     const dispatch = useDispatch();
+    const id = useId();
 
     const stepCounts = 4;
     const [activeStep, setActiveStep] = useState(1);
@@ -35,7 +36,7 @@ const MultiStepForm = ({ closeModal }: Props): React.ReactElement => {
     });
 
     const onSubmit = (data: FormData) => {
-        dispatch(addInfo(data));
+        dispatch(addInfo({ ...data, id: id }));
         console.log(data);
         closeModal();
     };
