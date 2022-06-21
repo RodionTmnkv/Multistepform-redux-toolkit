@@ -1,0 +1,25 @@
+@import '../../../assets/styles/variables.scss';
+
+
+.input_error {
+    display: flex;
+    justify-content: center;
+    color: $red_color;
+}
+
+
+.form_input_wrapper {
+    width: 100%;
+    position: relative;
+    padding: 10px 15px;
+    border: 1px solid $light_blue_color;
+
+    .form_input_label {
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .form_input_button {
+        display: none;
+    }
+}

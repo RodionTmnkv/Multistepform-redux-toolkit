@@ -1,0 +1,85 @@
+@import "../../assets/styles/variables.scss";
+
+#header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    align-items: center;
+    border-bottom: 1px solid $blue_color;
+    background-color: $light_blue_color;
+
+
+    .header_socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+        list-style: none;
+        height: 100%;
+
+        .header_social_link {
+            :hover {
+                fill: $light_cyan_color;
+            }
+        }
+    }
+
+    .header_technologies {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+        list-style: none;
+        height: 100%;
+    }
+
+    .header_contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+}
+
+/* АДАПТАЦИЯ К ШИРИНЕ ЭКРАНА ТЕЛЕФОНА */
+@media(max-width: $mobile_width) {
+    #header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+        .header_socials {
+            grid-area: 1 / 1 / 2 / 2;
+        }
+
+        .header_technologies {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            grid-area: 1 / 2 / 3 / 3;
+
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .header_contacts {
+            grid-area: 2 / 1 / 3 / 2;
+        }
+    }
+}

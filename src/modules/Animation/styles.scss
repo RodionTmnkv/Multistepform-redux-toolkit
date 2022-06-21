@@ -1,0 +1,106 @@
+@import '../../assets/styles/variables.scss';
+
+.animation_wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .animation_container {
+        position: absolute;
+        width: 125px;
+        height: 125px;
+        border: 2px solid $light_blue_color;
+        border-radius: 50%;
+        animation: animate 3s linear infinite;
+
+        ::before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: $light_cyan_color;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -7px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px $light_cyan_color;
+        }
+
+        .first_item {
+            background: $light_cyan_color;
+            width: 15px;
+            height: 15px;
+        }
+
+
+    }
+
+    .animation_container2 {
+        position: absolute;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        border: 2px solid $light_blue_color;
+        animation: animate 6s linear infinite;
+
+        ::before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: $cyan_color;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -7px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px $cyan_color;
+        }
+
+        .second_item {
+            background: $cyan_color;
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .animation_container3 {
+        position: absolute;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        border: 2px solid $light_blue_color;
+        animation: animate 2s linear infinite;
+
+        ::before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: $dark_blue_color;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -7px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px $dark_blue_color;
+        }
+
+        .third_item {
+            background: $dark_blue_color;
+            width: 15px;
+            height: 15px;
+        }
+    }
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
