@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-hook-form-portfolio/static/css/main.56a513cd.css",
-    "main.js": "/react-hook-form-portfolio/static/js/main.5c7b0835.js",
-    "static/media/open-sans-all-400-normal.woff": "/react-hook-form-portfolio/static/media/open-sans-all-400-normal.3bc4108fa8f9a72e6ea5.woff",
-    "static/media/icons.svg": "/react-hook-form-portfolio/static/media/icons.476a8968258f4e0b63dba47408fd74a0.svg",
-    "static/media/open-sans-cyrillic-ext-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-cyrillic-ext-400-normal.acfea1d2352591b09c46.woff2",
-    "static/media/open-sans-latin-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-latin-400-normal.4d140983c7c8c4a8c722.woff2",
-    "static/media/open-sans-latin-ext-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-latin-ext-400-normal.8deeb3884c8ce11a3537.woff2",
-    "static/media/open-sans-cyrillic-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-cyrillic-400-normal.35d9aa74a5c9697bc38c.woff2",
-    "static/media/open-sans-greek-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-greek-400-normal.accce9b81f55c6f4779c.woff2",
-    "static/media/open-sans-hebrew-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-hebrew-400-normal.608be94da46d7cd7a003.woff2",
-    "static/media/open-sans-vietnamese-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-vietnamese-400-normal.6517a5545bd31eeb4a61.woff2",
-    "static/media/open-sans-greek-ext-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-greek-ext-400-normal.6e872659616d9b8fb28c.woff2",
-    "index.html": "/react-hook-form-portfolio/index.html",
-    "main.56a513cd.css.map": "/react-hook-form-portfolio/static/css/main.56a513cd.css.map",
-    "main.5c7b0835.js.map": "/react-hook-form-portfolio/static/js/main.5c7b0835.js.map"
+    "main.css": "/Multistepform-redux-toolkit/static/css/main.de7501b8.css",
+    "main.js": "/Multistepform-redux-toolkit/static/js/main.8a07d482.js",
+    "static/media/open-sans-all-400-normal.woff": "/Multistepform-redux-toolkit/static/media/open-sans-all-400-normal.3bc4108fa8f9a72e6ea5.woff",
+    "static/media/icons.svg": "/Multistepform-redux-toolkit/static/media/icons.476a8968258f4e0b63dba47408fd74a0.svg",
+    "static/media/open-sans-cyrillic-ext-400-normal.woff2": "/Multistepform-redux-toolkit/static/media/open-sans-cyrillic-ext-400-normal.acfea1d2352591b09c46.woff2",
+    "static/media/open-sans-latin-400-normal.woff2": "/Multistepform-redux-toolkit/static/media/open-sans-latin-400-normal.4d140983c7c8c4a8c722.woff2",
+    "static/media/open-sans-latin-ext-400-normal.woff2": "/Multistepform-redux-toolkit/static/media/open-sans-latin-ext-400-normal.8deeb3884c8ce11a3537.woff2",
+    "static/media/open-sans-cyrillic-400-normal.woff2": "/Multistepform-redux-toolkit/static/media/open-sans-cyrillic-400-normal.35d9aa74a5c9697bc38c.woff2",
+    "static/media/open-sans-greek-400-normal.woff2": "/Multistepform-redux-toolkit/static/media/open-sans-greek-400-normal.accce9b81f55c6f4779c.woff2",
+    "static/media/open-sans-hebrew-400-normal.woff2": "/Multistepform-redux-toolkit/static/media/open-sans-hebrew-400-normal.608be94da46d7cd7a003.woff2",
+    "static/media/open-sans-vietnamese-400-normal.woff2": "/Multistepform-redux-toolkit/static/media/open-sans-vietnamese-400-normal.6517a5545bd31eeb4a61.woff2",
+    "static/media/open-sans-greek-ext-400-normal.woff2": "/Multistepform-redux-toolkit/static/media/open-sans-greek-ext-400-normal.6e872659616d9b8fb28c.woff2",
+    "index.html": "/Multistepform-redux-toolkit/index.html",
+    "main.de7501b8.css.map": "/Multistepform-redux-toolkit/static/css/main.de7501b8.css.map",
+    "main.8a07d482.js.map": "/Multistepform-redux-toolkit/static/js/main.8a07d482.js.map"
   },
   "entrypoints": [
-    "static/css/main.56a513cd.css",
-    "static/js/main.5c7b0835.js"
+    "static/css/main.de7501b8.css",
+    "static/js/main.8a07d482.js"
   ]
 }
